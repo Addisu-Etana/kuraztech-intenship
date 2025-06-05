@@ -1,6 +1,6 @@
 ## Internship Entrance Challenge: Simple Task Manager
 
-*** Objective: Demonstrate your ability to build a small but complete task manager app based on your area of expertise: Frontend, Backend, or Mobile.but i am frontend developer so i only concentrate on client side.***
+## Objective: Demonstrate your ability to build a small but complete task manager app based on your area of expertise: Frontend, Backend, or Mobile.but i am frontend developer so i only concentrate on client side.*
 
 # Frontend Developer Instructions:
 
