@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #7180c1 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.header {
+    background: linear-gradient(135deg, #d8dae2 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    opacity: 0.9;
+    font-size: 1.1rem;
+}
+.task-form {
+    padding: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.task-input {
+    flex: 1;
+    padding: 15px;
+    border: 2px solid #e1e5e9;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+.task-input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+.add-btn {
+    padding: 15px 25px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.add-btn:hover {
+    transform: translateY(-5px);
+}
+
+.add-btn:active {
+    transform: translateY(0);
+}
+.task-stats {
+    display: flex;
+    justify-content: space-between;
+    background: #f8f9fa;
+    padding: 15px 30px;
+    font-weight: 600;
+    color: #666;
+}
+
+.task-list {
+    padding: 20px 30px 30px;
+    min-height: 200px;
+}
